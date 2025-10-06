@@ -1,7 +1,5 @@
-# auth.py
 import hashlib
 
-# Простая имитация базы пользователей
 USERS = {
     "admin": hashlib.sha256("1234".encode()).hexdigest(),
     "qa_user": hashlib.sha256("password".encode()).hexdigest()
