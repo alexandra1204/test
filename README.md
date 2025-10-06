@@ -12,9 +12,9 @@ pip install -r requirements.txt
 ```
 Запуск тестов
 ```bash
--pytest
+pytest
 ```
 или с HTML-отчётом:
 ```bash
--pytest --html=report.html
+pytest --html=report.html
 ```
